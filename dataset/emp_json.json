@@ -1,0 +1,20 @@
+{
+	"name": "emp_json",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStoragemp",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "output",
+				"container": "containergulf"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

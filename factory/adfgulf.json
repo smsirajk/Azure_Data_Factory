@@ -1,0 +1,9 @@
+{
+	"name": "adfgulf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e53607b7-52cc-4334-b472-b23587276f0f",
+		"tenantId": "adc8994c-c5da-4432-a590-cd9e41673aac"
+	}
+}
