@@ -1,0 +1,36 @@
+{
+	"name": "deletefile",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStoragedelete",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "Input",
+				"container": "containergulf"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Deptno",
+				"type": "String"
+			},
+			{
+				"name": "Dname",
+				"type": "String"
+			},
+			{
+				"name": "Loc",
+				"type": "String"
+			}
+		]
+	}
+}
